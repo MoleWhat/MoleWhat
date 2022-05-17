@@ -1,8 +1,8 @@
-# MoleWhat: 
+# MoleWhat: The molecule name game
+
 ## Affiliation
 
 Final Project for the Software Engineering 2022-2 class, taught by Dr. José Alfredo Noriega Carmona at the ([National Autonomous University of Mexico](https://www.unam.mx/)), in its  National School of Superior-Level Studies, _Morelia_ Campus (ENES Morelia), as part of its _Bs. in Information Technologies applied to Science_ career plan.
-
 
 > DEVELOPED BY:
 > 
@@ -17,14 +17,14 @@ Final Project for the Software Engineering 2022-2 class, taught by Dr. José Alf
 > Anton Pashkov ([anton-pashkov](https://github.com/anton-pashkov))
 
 
-# Introduction
+## Introduction
 The following project intends to provide a functional endpoint in which a potential user can visualize a map containing worldwide flight routes in real time. 
 
 The need for such a project stems as a desire to function as a real-time alert system with which to calculate the range in which a solar flare can cause interference with the equipment on board of airships currently flying at high altitudes, given their vulnerability to EMP events.
 
 As a final project, this aims to be a practical demostration of how a series of computers in parallel can be used to obtain an easily scalable product that could potentially be commercialized and expanded upon once completed, without relying on a single, high performance computer to perform the entire process.
 
-# Objectives
+## Objectives
 The expected output of this project is a set of four servers, each of which provide an essential part of the project. Their denomination is as follows:
 
 > Data Retrieval Server
@@ -44,7 +44,7 @@ In charge of generating map images on demand, based on the request by the Web Se
 In charge of displaying map images to the end user through a modern web interface
 
 
-# Toolset
+## Toolset
 The project is to be developed by making use of modern Python 3 libraries, including but not limited to:
 
 Guizero
@@ -59,10 +59,10 @@ Additionally, it plans to make use of the following web technologies, on top of 
 * [PHP](https://www.php.net/)
 * [Bootstrap](https://getbootstrap.com/)
 
-# Methodology
+## Methodology
 ...
 
-# Usage Instructions & Requirements
+## Usage Instructions & Requirements
 ...
 
 
