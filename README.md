@@ -49,7 +49,7 @@ The project is to be developed by making use of modern Python 3 libraries, inclu
 
 * [python 3](https://www.python.org/downloads/) | v 3.10.4
 * [Guizero](https://pypi.org/project/guizero/) | v 1.3.0 
-* [Sqlite3] | v. 3.36.0
+* Sqlite3 | v. 3.36.0
 * [drkit](https://www.rdkit.org/)
 
 Additionally, it plans to make use of the following web technologies, on top of the usual development stack:
