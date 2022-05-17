@@ -47,11 +47,10 @@ In charge of displaying map images to the end user through a modern web interfac
 ## Toolset
 The project is to be developed by making use of modern Python 3 libraries, including but not limited to:
 
-Guizero
-* [The OpenSky Network API](https://opensky-network.org/) for data collection of near-real time flight information. 
-* [Folium](https://github.com/python-visualization/folium), a wrapper to the [Leaflet.js](https://leafletjs.com/) JavaScript mapping library. | v. 0.12.1
-* [NumPy](https://numpy.org/) | v. 1.22.3
-* [Pandas](https://pandas.pydata.org/) | v. 1.4.2
+* [python 3](https://www.python.org/downloads/) | v 3.10.4
+* [Guizero](https://pypi.org/project/guizero/) | v 1.3.0 
+* [Sqlite3] | v. 3.36.0
+* [drkit](https://www.rdkit.org/)
 
 Additionally, it plans to make use of the following web technologies, on top of the usual development stack:
 * [Apache HTTPD](https://httpd.apache.org/)
