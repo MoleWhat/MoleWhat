@@ -53,10 +53,9 @@ The project is to be developed by making use of modern Python 3 libraries, inclu
 * [drkit](https://www.rdkit.org/)
 
 Additionally, it plans to make use of the following web technologies, on top of the usual development stack:
-* [Apache HTTPD](https://httpd.apache.org/)
-* [MariaDB](https://mariadb.org/)
-* [PHP](https://www.php.net/)
-* [Bootstrap](https://getbootstrap.com/)
+-
+-
+-
 
 ## Methodology
 ...
