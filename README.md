@@ -53,7 +53,7 @@ The project is to be developed by making use of modern Python 3 libraries, inclu
 * Sqlite3 | v. 3.36.0
 * [drkit](https://www.rdkit.org/)
 
-Additionally, it plans to make use of the following web technologies, on top of the usual development stack:
+## Additionally, it plans to make use of the following web technologies, on top of the usual development stack:
 -
 -
 -
