@@ -18,30 +18,31 @@ Final Project for the Software Engineering 2022-2 class, taught by Dr. José Alf
 
 
 ## Introduction
-The following project intends to provide a basic game in which chemistry students can study and memorize the names of molecules and their descriptions according to the ([International Union of Pure and Applied Chemistry](https://iupac.org/)).
+The following project intends to provide a basic game in which chemistry students can study, memorize and learn the molecules names and their descriptions according to the [International Union of Pure and Applied Chemistry](https://iupac.org/).
 
-The need for such a project stems as a desire to function as a real-time alert system with which to calculate the range in which a solar flare can cause interference with the equipment on board of airships currently flying at high altitudes, given their vulnerability to EMP events.
-
-As a final project, this aims to be a practical demostration of how a series of computers in parallel can be used to obtain an easily scalable product that could potentially be commercialized and expanded upon once completed, without relying on a single, high performance computer to perform the entire process.
+The need for such a project stems as a desire to help students challenge their knowledge of chemistry, specifically molecules names, through a game that puts their memorization skills to work. There is currently no game that allows you to do this. Studying and memorizing important things is intended to be fun and challenging through the levels that this program offers.
 
 ## Objectives
-The expected output of this project is a set of four servers, each of which provide an essential part of the project. Their denomination is as follows:
+The expected output of this project is to be a program that potential users can download on their own devices and start playing. It is going to save the personal information of the user, without sharing it on the cloud but locally.
 
-> Data Retrieval Server
+Their denomination is as follows:
 
-In charge of obtaining real-time data from the OpenSky Network API, through the use of Python. Will relay said information in a timely manner to the Storage Server, while also keeping copies of recent data points as required for archive purposes.
 
-> Storage Server
+> process 1
 
-In charge of storing up-to-date data with PostgreSQL, to be sorted and retrieved as needed by the Processing Server.
+something 
 
-> Processing Server
+> process 2
 
-In charge of generating map images on demand, based on the request by the Web Server API
+something 
 
-> Web Server
+> process 3
 
-In charge of displaying map images to the end user through a modern web interface
+something 
+
+> process 4
+
+something ...
 
 
 ## Toolset
