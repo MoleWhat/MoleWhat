@@ -18,7 +18,7 @@ Final Project for the Software Engineering 2022-2 class, taught by Dr. José Alf
 
 
 ## Introduction
-The following project intends to provide a functional endpoint in which a potential user can visualize a map containing worldwide flight routes in real time. 
+The following project intends to provide a basic game in which chemistry students can study and memorize the names of molecules and their descriptions according to the  ([IUPAC (International Union of Pure and Applied Chemistry])(https://iupac.org/)).
 
 The need for such a project stems as a desire to function as a real-time alert system with which to calculate the range in which a solar flare can cause interference with the equipment on board of airships currently flying at high altitudes, given their vulnerability to EMP events.
 
