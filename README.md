@@ -20,10 +20,10 @@ Final Project for the Software Engineering 2022-2 class, taught by Dr. José Alf
 ## Introduction
 The following project intends to provide a basic game in which chemistry students can study, memorize and learn the molecules names and their descriptions according to the [International Union of Pure and Applied Chemistry](https://iupac.org/).
 
-The need for such a project stems as a desire to help students challenge their knowledge of chemistry, specifically molecules names, through a game that puts their memorization skills to work. There is currently no game that allows you to do this. Studying and memorizing important things is intended to be fun and challenging through the levels that this program offers.
+The need for such a project stems as a desire to help students challenge their knowledge of chemistry, specifically molecules names, through a game that puts their memorization skills to work. There is currently no game that allows you to do this. Studying and memorizing important things is intended to be fun and challenging through the levels that this game offers.
 
 ## Objectives
-The expected output of this project is to be a program that potential users can download on their own devices and start playing. It is going to save the personal information of the user, without sharing it on the cloud but locally.
+The expected output of this project is to be a software that potential users can download on their own devices and start playing. It will save the personal information of the user locally, not in the cloud.
 
 Their denomination is as follows:
 
