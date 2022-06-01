@@ -53,14 +53,13 @@ The project is to be developed by making use of modern Python 3 libraries, inclu
 * Sqlite3 | v. 3.36.0
 * [drkit](https://www.rdkit.org/)
 
-
 ## Methodology
 ...
 
 ## Usage Instructions & Requirements
 ...
 
-}}}} PROFE {{{{{
+# User Manual
 
 ### Tabla de Contenidos
 
