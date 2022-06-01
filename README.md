@@ -60,5 +60,39 @@ The project is to be developed by making use of modern Python 3 libraries, inclu
 ## Usage Instructions & Requirements
 ...
 
+}}}} PROFE {{{{{
+
+### Tabla de Contenidos
+
+### Introducción
+// Dirigido a:, Alcance:, Propósito:, Resumen:
+
+
+### Sobre el uso de la documentación
+
+// Requerimientos de perfil, advertencias, precauciones, cambios desde la última versión, tabla de volúmenes.
+  
+
+### Conceptos de las operaciones - Modo Instruccional
+//Uso, instalación, desinstalación, orientación de GUI, inicio de sesión, navigación, operaciones de datos, cancelar operaciones.
+
+### Procedimientos - Modo Referencial
+// Overview de conceptos y procesos, Identificar actividades de prerequisito para iniciar tareas, listado de materiales necesarios para concluir una tarea (docs, passwds, software, drivers, protocols...), advertencias particulares
+
+### Información sobre comandos de software - Atajos
+
+### Mensajes de Error y Troubleshooting
+
+### Glosario
+
+### Características de navegación
+
+### Índice
+
+### Herramientas de Búsqueda
+
+
+
 
 The contents of this repository are licensed under the GNU General Public License version 3. Visit https://www.gnu.org/licenses/gpl-3.0.html for more information.
+
