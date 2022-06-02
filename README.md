@@ -53,42 +53,37 @@ The project is to be developed by making use of modern Python 3 libraries, inclu
 * Sqlite3 | v. 3.36.0
 * [drkit](https://www.rdkit.org/)
 
-## Methodology
-...
-
-## Usage Instructions & Requirements
-...
 
 # User Manual
 
-### Tabla de Contenidos
+### Table of Contents
 
-### Introducción
+### Introduction
 // Dirigido a:, Alcance:, Propósito:, Resumen:
 
 
-### Sobre el uso de la documentación
+### About documentation
 
 // Requerimientos de perfil, advertencias, precauciones, cambios desde la última versión, tabla de volúmenes.
   
 
-### Conceptos de las operaciones - Modo Instruccional
+### Operational concepts
 //Uso, instalación, desinstalación, orientación de GUI, inicio de sesión, navigación, operaciones de datos, cancelar operaciones.
 
-### Procedimientos - Modo Referencial
+### Procedure  - Referential mode
 // Overview de conceptos y procesos, Identificar actividades de prerequisito para iniciar tareas, listado de materiales necesarios para concluir una tarea (docs, passwds, software, drivers, protocols...), advertencias particulares
 
-### Información sobre comandos de software - Atajos
+### Shortcuts and commands
 
-### Mensajes de Error y Troubleshooting
+### Error messages and Troubleshooting
 
-### Glosario
+### Glosary
 
-### Características de navegación
+### Navigation Features
 
-### Índice
+### Index
 
-### Herramientas de Búsqueda
+### Search Tools
 
 
 
