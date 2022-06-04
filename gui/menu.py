@@ -76,10 +76,10 @@ def menu(app):
     colors = [
         "#8AC926",
         "#8AC926",
-        "#FF595E",
-        "#FF595E",
         "#FFCA3A",
         "#FFCA3A",
+        "#FF595E",
+        "#FF595E",
         "#6A4C93",
         "#6A4C93",
     ]
