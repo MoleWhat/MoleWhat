@@ -124,7 +124,7 @@ def menu(app):
 
     # Draw the home button
     home = Drawing(home_box, align="right", width=100, height=100)
-    home.oval(5, 5, 95, 95, color="#1982C4")
+    home.oval(5, 5, 95, 95, color="#FF595E")
     home.triangle(50, 20, 24, 45, 76, 45, color="#8AC926")
     home.rectangle(35, 45, 65, 70, color="#FFCA3A")
     home.tk.config(cursor="hand1")
