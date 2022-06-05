@@ -63,19 +63,19 @@ No login required. The player's progress is saved locally in the database.
 
 #### About the interface
 
-* Home page
+* Home page:
 <img src="gui/molewhat_start.png" width="424" height="324">
 
-* Levels page
+* Levels page:
 <img src="gui/molewhat_levels.png" width="424" height="324">
 
-* The game is divided into two different type of questions. This one is an example of matching the correct image with the molecule name
+* The game is divided into two different type of questions. This one is an example of matching the correct image with the molecule name:
 <img src="gui/molewhat_matching.png" width="424" height="324">
 
-* In the other one, you type the correct molecule name based on the showed image
+* In the other one, you type the correct molecule name based on the showed image:
 <img src="gui/molewhat_typing.png" width="424" height="324">
 
-* In addition, it contains a button that takes you directly to the home page. It is located in the bottom right
+* In addition, it contains a button that takes you directly to the home page. It is located in the bottom right.
  
 ### Procedure  - Referential mode
 To start playing MoleWhat it is necessary to run the aforementioned folders, the graphic window will open and the home page will be presented, the "play" icon will be displayed, this button has to be pressed to redirect you to the list of levels, being there, you select the one you want to play, after selecting the correct level, the first question will be displayed on the screen.
