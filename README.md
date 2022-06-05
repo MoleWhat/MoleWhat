@@ -72,6 +72,8 @@ No login required. The player's progress is saved locally in the database.
 ![](gui/molewhat_levels.png)
 ![](gui/molewhat_matching.png)
 ![](gui/molewhat_typing.png)
+<img src="gui/molewhat_levels.png" width="200" height="200">
+
 
 // orientación de GUI, navegación, operaciones de datos, cancelar operaciones.
 
