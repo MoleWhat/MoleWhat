@@ -65,14 +65,17 @@ Simply remove the directory, and if possible, remove dependencies as well.
 #### Usage
 No login required. The player's progress is saved locally in the database.
 
-#### Windows:
+##### Windows:
+
 > Home page
 <img src="gui/molewhat_start.png" width="424" height="324">
 >
 > Levels page
 <img src="gui/molewhat_levels.png" width="424" height="324">
 >
-> The game is divided into two different type of questions. This one is an example of matching the correct image with the molecule name:
+> The game is divided into two different type of questions. 
+> 
+> This one is an example of matching the correct image with the molecule name:
 <img src="gui/molewhat_matching.png" width="424" height="324">
 >
 > In this other one, you got to type the correct molecula name based on the showed image.
