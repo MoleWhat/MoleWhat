@@ -3,8 +3,6 @@
 ## About
 
 Final Project for the Software Engineering 2022-2 class, taught by Dr. José Alfredo Noriega Carmona at the [National Autonomous University of Mexico](https://www.unam.mx/), in its  National School of Superior-Level Studies, _Morelia_ Campus (ENES Morelia), as part of its _Bs. in Information Technologies applied to Science_ career plan.
-
-> Developed by:
 > 
 > Mariela Yael Arias Rojo ([marielaAriass](https://github.com/marielaAriass))
 > 
