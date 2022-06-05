@@ -94,7 +94,7 @@ First, try running the executable from a terminal so you can see all the output.
 > Molecule: A group of atoms bonded together, representing the smallest fundamental unit of a chemical compound that can take part in a chemical reaction.
 > 
 ### Navigation Features
-* Graphic window: with a simple interface design to avoid confusion and difficulties for our users.
+* Graphic window: with a simple interface design to avoid confusion and difficulties for the users.
 
 The contents of this repository are licensed under the GNU General Public License version 3. Visit https://www.gnu.org/licenses/gpl-3.0.html for more information.
 
