@@ -31,7 +31,6 @@ Final Project for the Software Engineering 2022-2 class, taught by Dr. José Alf
 * Index
 * Search Tools
 
-
 ## Introduction
 The following project intends to provide a basic game in which chemistry students can study, memorize and learn the molecules names and their descriptions according to the [International Union of Pure and Applied Chemistry](https://iupac.org/).
 
@@ -44,14 +43,27 @@ The expected output of this project is to be a software that potential users can
 
 // Requerimientos de perfil, advertencias, precauciones, cambios desde la última versión, tabla de volúmenes.
 
-## Toolset - Operational concepts
-The project is to be developed by making use of modern Python 3 libraries, including but not limited to:
+### Toolset - Operational concepts
+This program does not require installation. However, it does require the following dependencies installed on the system:
 
-* [python 3](https://www.python.org/downloads/) | v 3.10.4
+* [Python 3](https://www.python.org/downloads/) | v 3.10.4
 * [Guizero](https://pypi.org/project/guizero/) | v 1.3.0 
-* Sqlite3 | v. 3.36.0
+* [Sqlite3] (https://docs.python.org/es/3/library/sqlite3.html) | v. 3.36.0
 * [drkit](https://www.rdkit.org/)
-  
+* [tkinter](https://docs.python.org/es/3/library/tkinter.html) | v. 8.6
+* [PyInstaller](https://pyinstaller.org/en/stable/)
+
+Run your executable to get started as quickly as possible by doing the following:
+
+* Open the dist/ folder.
+* Unzip the dist% folder.
+* Allow execute, read and write permissions.
+
+#### Uninstalling
+* Simply remove the directory, and if possible, remove dependencies as well.
+
+#### Usage
+
 //Uso, instalación, desinstalación, orientación de GUI, inicio de sesión, navigación, operaciones de datos, cancelar operaciones.
 
 ### Procedure  - Referential mode
@@ -60,6 +72,7 @@ The project is to be developed by making use of modern Python 3 libraries, inclu
 ### Shortcuts and commands
 
 ### Error messages and Troubleshooting
+First, try running the executable from a terminal so you can see all the output. Remember to remove the -w build flag to see all the stdout in a console window. Often, you’ll see ImportError exceptions if a dependency is missing.
 
 ### Glosary
 
