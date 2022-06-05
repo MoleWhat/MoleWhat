@@ -44,27 +44,32 @@ The expected output of this project is to be a software that potential users can
 // Requerimientos de perfil, advertencias, precauciones, cambios desde la última versión, tabla de volúmenes.
 
 ### Toolset - Operational concepts
-This program does not require installation. However, it does require the following dependencies installed on the system:
 
+#### Installation
+This program does not require installation. However, it does require the following dependencies installed on the system:
 * [Python 3](https://www.python.org/downloads/) | v 3.10.4
 * [Guizero](https://pypi.org/project/guizero/) | v 1.3.0 
-* [Sqlite3] (https://docs.python.org/es/3/library/sqlite3.html) | v. 3.36.0
+* [Sqlite3](https://docs.python.org/es/3/library/sqlite3.html) | v. 3.36.0
 * [drkit](https://www.rdkit.org/)
 * [tkinter](https://docs.python.org/es/3/library/tkinter.html) | v. 8.6
 * [PyInstaller](https://pyinstaller.org/en/stable/)
 
 Run your executable to get started as quickly as possible by doing the following:
-
 * Open the dist/ folder.
 * Unzip the dist% folder.
 * Allow execute, read and write permissions.
 
-#### Uninstalling
+#### Uninstallation
 * Simply remove the directory, and if possible, remove dependencies as well.
 
 #### Usage
 
-//Uso, instalación, desinstalación, orientación de GUI, inicio de sesión, navigación, operaciones de datos, cancelar operaciones.
+
+
+
+
+
+//Uso,, orientación de GUI, inicio de sesión, navegación, operaciones de datos, cancelar operaciones.
 
 ### Procedure  - Referential mode
 // Overview de conceptos y procesos, Identificar actividades de prerequisito para iniciar tareas, listado de materiales necesarios para concluir una tarea (docs, passwds, software, drivers, protocols...), advertencias particulares
