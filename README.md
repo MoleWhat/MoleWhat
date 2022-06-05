@@ -29,12 +29,12 @@ Final Project for the Software Engineering 2022-2 class, taught by Dr. José Alf
 * Index
 * Search Tools
 
-## Introduction
+### Introduction
 The following project intends to provide a basic game in which chemistry students can study, memorize and learn the molecules names and their descriptions according to the [International Union of Pure and Applied Chemistry](https://iupac.org/).
 
 The need for such a project stems as a desire to help students challenge their knowledge of chemistry, specifically molecules names, through a game that puts their memorization skills to work. There is currently no game that allows you to do this. Studying and memorizing important things is intended to be fun and challenging through the levels that this game offers.
 
-## Objectives
+### Objectives
 The expected output of this project is to be a software that potential users can download on their own devices and start playing. It will save the personal information of the user locally, not in the cloud.
 
 ### About documentation
@@ -69,7 +69,7 @@ No login required. The player's progress is saved locally in the database.
 // orientación de GUI, navegación, operaciones de datos, cancelar operaciones.
 
 ### Procedure  - Referential mode
-// Overview de conceptos y procesos, Identificar actividades de prerequisito para iniciar tareas, listado de materiales necesarios para concluir una tarea (docs, passwds, software, drivers, protocols...), advertencias particulares
+// Overview de conceptos y procesos, Identificar actividades de prerrequisito para iniciar tareas, listado de materiales necesarios para concluir una tarea (docs, passwds, software, drivers, protocols...), advertencias particulares
 
 ### Shortcuts and commands
 
@@ -77,14 +77,10 @@ No login required. The player's progress is saved locally in the database.
 First, try running the executable from a terminal so you can see all the output. Remember to remove the -w build flag to see all the stdout in a console window. Often, you’ll see ImportError exceptions if a dependency is missing.
 
 ### Glosary
+Molecule¡????
 
 ### Navigation Features
-
-### Index
-
-### Search Tools
-
-
+* Graphic window: with a simple interface design to avoid confusion and difficulties for our users.
 
 
 The contents of this repository are licensed under the GNU General Public License version 3. Visit https://www.gnu.org/licenses/gpl-3.0.html for more information.
