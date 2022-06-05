@@ -63,13 +63,10 @@ Run your executable to get started as quickly as possible by doing the following
 * Simply remove the directory, and if possible, remove dependencies as well.
 
 #### Usage
+No login required. The player's progress is saved locally in the database.
 
 
-
-
-
-
-//Uso,, orientación de GUI, inicio de sesión, navegación, operaciones de datos, cancelar operaciones.
+// orientación de GUI, navegación, operaciones de datos, cancelar operaciones.
 
 ### Procedure  - Referential mode
 // Overview de conceptos y procesos, Identificar actividades de prerequisito para iniciar tareas, listado de materiales necesarios para concluir una tarea (docs, passwds, software, drivers, protocols...), advertencias particulares
