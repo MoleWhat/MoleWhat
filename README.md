@@ -60,7 +60,7 @@ Run your executable to get started as quickly as possible by doing the following
 * Allow execute, read and write permissions.
 
 #### Uninstallation
-* Simply remove the directory, and if possible, remove dependencies as well.
+Simply remove the directory, and if possible, remove dependencies as well.
 
 #### Usage
 No login required. The player's progress is saved locally in the database.
