@@ -39,7 +39,9 @@ The expected output of this project is to be a software that potential users can
 
 ### About documentation
 
-// Requerimientos de perfil, advertencias, precauciones, cambios desde la última versión, tabla de volúmenes.
+It is not necessary to have advanced computer knowledge, however, it is recommended to know how to use the terminal of your device to run the program by following the steps that we will provide later. Prior knowledge of molecule names is recommended if you want to use it as a knowledge test, however it can also be played for the purpose of learning from scratch. This is the first version of the game, so don't get surprised if there are not many levels yet.
+
+// advertencias, precauciones, cambios desde la última versión, tabla de volúmenes.
 
 ### Toolset - Operational concepts
 
