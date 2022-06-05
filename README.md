@@ -36,49 +36,23 @@ Final Project for the Software Engineering 2022-2 class, taught by Dr. José Alf
 ## Introduction
 The following project intends to provide a basic game in which chemistry students can study, memorize and learn the molecules names and their descriptions according to the [International Union of Pure and Applied Chemistry](https://iupac.org/).
 
-### Introduction
-// Dirigido a:, Alcance:, Propósito:, Resumen:
-
-
 The need for such a project stems as a desire to help students challenge their knowledge of chemistry, specifically molecules names, through a game that puts their memorization skills to work. There is currently no game that allows you to do this. Studying and memorizing important things is intended to be fun and challenging through the levels that this game offers.
 
 ## Objectives
 The expected output of this project is to be a software that potential users can download on their own devices and start playing. It will save the personal information of the user locally, not in the cloud.
 
-Their denomination is as follows:
+### About documentation
 
+// Requerimientos de perfil, advertencias, precauciones, cambios desde la última versión, tabla de volúmenes.
 
-> process 1
-
-something 
-
-> process 2
-
-something 
-
-> process 3
-
-something 
-
-> process 4
-
-something ...
-
-
-## Toolset
+## Toolset - Operational concepts
 The project is to be developed by making use of modern Python 3 libraries, including but not limited to:
 
 * [python 3](https://www.python.org/downloads/) | v 3.10.4
 * [Guizero](https://pypi.org/project/guizero/) | v 1.3.0 
 * Sqlite3 | v. 3.36.0
 * [drkit](https://www.rdkit.org/)
-
-### About documentation
-
-// Requerimientos de perfil, advertencias, precauciones, cambios desde la última versión, tabla de volúmenes.
   
-
-### Operational concepts
 //Uso, instalación, desinstalación, orientación de GUI, inicio de sesión, navigación, operaciones de datos, cancelar operaciones.
 
 ### Procedure  - Referential mode
