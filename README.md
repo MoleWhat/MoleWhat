@@ -26,8 +26,6 @@ Final Project for the Software Engineering 2022-2 class, taught by Dr. José Alf
 * Error messages and Troubleshooting
 * Glosary
 * Navigation Features
-* Index
-* Search Tools
 
 ### Introduction
 The following project intends to provide a basic game in which chemistry students can study, memorize and learn the molecules names and their descriptions according to the [International Union of Pure and Applied Chemistry](https://iupac.org/).
