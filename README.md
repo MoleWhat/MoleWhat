@@ -55,8 +55,8 @@ This program does not require installation. However, it does require the followi
 * [PyInstaller](https://pyinstaller.org/en/stable/)
 
 Run your executable to get started as quickly as possible by doing the following:
-* Open the dist/ folder.
-* Unzip the dist% folder.
+* Unzip the folder.
+* Open the folders.
 * Allow execute, read and write permissions.
 
 #### Uninstallation
