@@ -57,6 +57,16 @@ The project is to be developed by making use of modern Python 3 libraries, inclu
 # User Manual
 
 ### Table of Contents
+Introducción
+Sobre el uso de la documentación
+Conceptos de las operaciones - Modo Instruccional
+Procedimientos - Modo Referencial
+Información sobre comandos de software - Atajos
+Mensajes de Error y Troubleshooting
+Glosario
+Características de navegación
+Índice
+Herramientas de Búsqueda
 
 ### Introduction
 // Dirigido a:, Alcance:, Propósito:, Resumen:
