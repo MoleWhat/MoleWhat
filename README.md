@@ -42,27 +42,27 @@ It is not necessary to have advanced computer knowledge, however, it is recommen
 ### Toolset - Operational concepts
 
 #### Installation
-This program does not require installation. However, it does require the following dependencies installed on the system:
-* [Python 3](https://www.python.org/downloads/) | v 3.10.4
-* [Guizero](https://pypi.org/project/guizero/) | v 1.3.0 
-* [Sqlite3](https://docs.python.org/es/3/library/sqlite3.html) | v. 3.36.0
-* [drkit](https://www.rdkit.org/)
-* [tkinter](https://docs.python.org/es/3/library/tkinter.html) | v. 8.6
-* [PyInstaller](https://pyinstaller.org/en/stable/)
-
-Run your executable to get started as quickly as possible by doing the following:
-* Unzip the folder.
-* Open the folders.
-* Allow execute, read and write permissions.
-
+> This program does not require installation. However, it does require the following dependencies installed on the system:
+> * [Python 3](https://www.python.org/downloads/) | v 3.10.4
+> * [Guizero](https://pypi.org/project/guizero/) | v 1.3.0 
+> * [Sqlite3](https://docs.python.org/es/3/library/sqlite3.html) | v. 3.36.0
+> * [drkit](https://www.rdkit.org/)
+> * [tkinter](https://docs.python.org/es/3/library/tkinter.html) | v. 8.6
+> * [PyInstaller](https://pyinstaller.org/en/stable/)
+>
+> Run your executable to get started as quickly as possible by doing the following:
+> * Unzip the folder.
+> * Open the folders.
+> * Allow execute, read and write permissions.
+> 
 #### Uninstallation
-Simply remove the directory, and if possible, remove dependencies as well.
-
+> Simply remove the directory, and if possible, remove dependencies as well.
+>
 #### Usage
-No login required. The player's progress is saved locally in the database.
-
+> No login required. The player's progress is saved locally in the database.
+>
 #### About the interface
-
+>
 * Home page:
 <img src="gui/molewhat_start.png" width="424" height="324">
 
