@@ -72,7 +72,7 @@ No login required. The player's progress is saved locally in the database.
 * The game is divided into two different type of questions. This one is an example of matching the correct image with the molecule name
 <img src="gui/molewhat_matching.png" width="424" height="324">
 
-* In this other one, you got to type the correct molecula name based on the showed image
+* In the other one, you type the correct molecule name based on the showed image
 <img src="gui/molewhat_typing.png" width="424" height="324">
 
 * In addition, it contains a button that takes you directly to the home page. It is located in the bottom right
@@ -81,7 +81,7 @@ No login required. The player's progress is saved locally in the database.
 To start playing MoleWhat it is necessary to run the aforementioned folders, the graphic window will open and the home page will be presented, the "play" icon will be displayed, this button has to be pressed to redirect you to the list of levels, being there, you select the one you want to play, after selecting the correct level, the first question will be displayed on the screen.
 
 ### Shortcuts and commands
-There is not any shortcuts or commands yet but we are adding some in the near future.
+There are not any yet, but some will be added in the near future.
 
 ### Error messages and Troubleshooting
 First, try running the executable from a terminal so you can see all the output. Remember to remove the -w build flag to see all the stdout in a console window. Often, you’ll see ImportError exceptions if a dependency is missing.
