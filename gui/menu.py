@@ -23,11 +23,12 @@ select levels to play and view already completed levels. Level type is selected
 randomly.
 """
 
-from guizero import App, Box, Text, Drawing, event
+from guizero import Box, Text, Drawing, App
 from random import choice
 
 # TODO: Uncomment the following imports when the functions are done
 import start
+import writing_question
 
 # from mc_question import mc_question
 # from writing_question import writing_question
@@ -46,24 +47,27 @@ def test2_func(event_data):
     print("You chose", event_data.widget.value, "Impossible possibilities")
 
 
-def test3_func():
-    # Test function: replace with start function
-    print("You want to go home?")
-
-
 def dim(event_data):
+    """Dims a level button on hover."""
+
     event_data.widget.bg = "#D5D5D5"
 
 
 def undim(event_data):
+    """Undims a level button when mouse leaves."""
+
     event_data.widget.bg = "white"
 
 
 def menu(event_data):
     """Clears the window and shows the level menu."""
 
+    # Get App object from event_data
+    app = event_data.widget
+    while type(app) != App:
+        app = app.master
+
     # Clear window
-    app = event_data.widget.master.master
     while len(app.children) != 0:
         app.children[0].destroy()
 
@@ -107,7 +111,7 @@ def menu(event_data):
             text.tk.config(cursor="hand1")
 
             # Random choice between "multiple choice" and "writing"
-            func = choice([test1_func, test2_func])
+            func = choice([test1_func, writing_question.writing_question])
             text.when_clicked = func
 
             # Dim on mouse hover
@@ -131,12 +135,3 @@ def menu(event_data):
     home.rectangle(35, 45, 65, 70, color="#FFCA3A")
     home.tk.config(cursor="hand1")
     home.when_clicked = start.start
-
-
-if __name__ == "__main__":
-    """Testing."""
-
-    app = App(title="MoleWhat", width=900, height=650)
-    app.tk.resizable(False, False)
-    menu(app)
-    app.display()

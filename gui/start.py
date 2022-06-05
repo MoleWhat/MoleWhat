@@ -28,14 +28,11 @@ import menu
 def start(obj):
     """Clears the window and shows the level menu."""
 
-    # Verify the origin of the user (from app start or from a home button)
-    if type(obj) == App:
-        # The user clicked on the program, do nothing
-        app = obj
-
-    elif type(obj) == event.EventData:
-        # The user clicked on a home button, find the master of home button
+    # Get App widget from input object
+    if type(obj) == event.EventData:
         app = obj.widget.master.master
+    else:
+        app = obj
 
     # Clear window
     while len(app.children) != 0:
@@ -55,10 +52,10 @@ def start(obj):
             # Change cursor to a "hand" on mouse hover
             button.tk.config(cursor="hand1")
 
-            b_box = Box(a_box, grid=[3, 3], height=35, width=300)
-            text = Text(
+            b_box = Box(a_box, grid=[3, 3], height=45, width=300)
+            Text(
                 b_box,
-                text="Molewhat?",
+                text="MoleWhat",
                 color="black",
                 bg="white",
                 size=35,
@@ -66,15 +63,20 @@ def start(obj):
                 height=100,
             )
 
-            #
+            # Call menu function if home button is clicked
             button.when_clicked = menu.menu
 
 
 if __name__ == "__main__":
+    """Driver code."""
 
+    # Application initialization
     app = App(title="MoleWhat", height=650, width=900)
+    app.tk.resizable(False, False)
+
     # Set background color to blue (#1982C4)
     app.bg = "#1982C4"
+
+    # Run start page
     start(app)
-    app.tk.resizable(False, False)
     app.display()
