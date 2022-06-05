@@ -65,7 +65,7 @@ Simply remove the directory, and if possible, remove dependencies as well.
 #### Usage
 No login required. The player's progress is saved locally in the database.
 
-##### Windows:
+##### About the interface
 
 * Home page
 <img src="gui/molewhat_start.png" width="424" height="324">
@@ -82,19 +82,21 @@ No login required. The player's progress is saved locally in the database.
 * In addition, it contains a button that takes you directly to the home page. It is located in the bottom right.
  
 ### Procedure  - Referential mode
-// Overview de conceptos y procesos, Identificar actividades de prerrequisito para iniciar tareas, listado de materiales necesarios para concluir una tarea (docs, passwds, software, drivers, protocols...), advertencias particulares
+To start playing MoleWhat it is necessary to run the aforementioned folders, the graphic window will open and the home page will be presented, the "play" icon will be displayed, this button has to be pressed to redirect you to the list of levels, being there, you select the one you want to play, after selecting the correct level, the first question will be displayed on the screen.
 
 ### Shortcuts and commands
+There is not any yet but adding some in the near future.
 
 ### Error messages and Troubleshooting
 First, try running the executable from a terminal so you can see all the output. Remember to remove the -w build flag to see all the stdout in a console window. Often, you’ll see ImportError exceptions if a dependency is missing.
 
 ### Glosary
-Molecule¡????
-
+> IUPAC: "Advancing the Worldwide Role of Chemistry", IUPAC serves the international scientific endeavor in the dual function of a fundamental science and mission-oriented Union. The Union is in a unique position to contribute to the central interdisciplinary chemical sciences.
+> 
+> Molecule: A group of atoms bonded together, representing the smallest fundamental unit of a chemical compound that can take part in a chemical reaction.
+> 
 ### Navigation Features
 * Graphic window: with a simple interface design to avoid confusion and difficulties for our users.
-
 
 The contents of this repository are licensed under the GNU General Public License version 3. Visit https://www.gnu.org/licenses/gpl-3.0.html for more information.
 
