@@ -65,10 +65,10 @@ Simply remove the directory, and if possible, remove dependencies as well.
 #### Usage
 No login required. The player's progress is saved locally in the database.
 
-<img src="gui/molewhat_start.png" width="324" height="324">
-<img src="gui/molewhat_levels.png" width="324" height="324">
-<img src="gui/molewhat_matching.png" width="324" height="324">
-<img src="gui/molewhat_typing.png" width="324" height="324">
+<img src="gui/molewhat_start.png" width="424" height="324">
+<img src="gui/molewhat_levels.png" width="424" height="324">
+<img src="gui/molewhat_matching.png" width="424" height="324">
+<img src="gui/molewhat_typing.png" width="424" height="324">
 
 
 // orientación de GUI, navegación, operaciones de datos, cancelar operaciones.
