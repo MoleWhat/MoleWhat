@@ -79,9 +79,8 @@ No login required. The player's progress is saved locally in the database.
 * In this other one, you got to type the correct molecula name based on the showed image.
 <img src="gui/molewhat_typing.png" width="424" height="324">
 
-
-// orientación de GUI, navegación, operaciones de datos, cancelar operaciones.
-
+* In addition, it contains a button that takes you directly to the home page. It is located in the bottom right.
+ 
 ### Procedure  - Referential mode
 // Overview de conceptos y procesos, Identificar actividades de prerrequisito para iniciar tareas, listado de materiales necesarios para concluir una tarea (docs, passwds, software, drivers, protocols...), advertencias particulares
 
