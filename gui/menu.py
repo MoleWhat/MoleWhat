@@ -23,11 +23,12 @@ select levels to play and view already completed levels. Level type is selected
 randomly.
 """
 
-from guizero import App, Box, Text, Drawing
+from guizero import App, Box, Text, Drawing, event
 from random import choice
 
 # TODO: Uncomment the following imports when the functions are done
-# from start import start
+import start
+
 # from mc_question import mc_question
 # from writing_question import writing_question
 
@@ -58,10 +59,11 @@ def undim(event_data):
     event_data.widget.bg = "white"
 
 
-def menu(app):
+def menu(event_data):
     """Clears the window and shows the level menu."""
 
     # Clear window
+    app = event_data.widget.master.master
     while len(app.children) != 0:
         app.children[0].destroy()
 
@@ -128,7 +130,7 @@ def menu(app):
     home.triangle(50, 20, 24, 45, 76, 45, color="#8AC926")
     home.rectangle(35, 45, 65, 70, color="#FFCA3A")
     home.tk.config(cursor="hand1")
-    home.when_clicked = test3_func
+    home.when_clicked = start.start
 
 
 if __name__ == "__main__":
