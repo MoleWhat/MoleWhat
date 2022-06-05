@@ -65,14 +65,10 @@ Simply remove the directory, and if possible, remove dependencies as well.
 #### Usage
 No login required. The player's progress is saved locally in the database.
 
-<div markdown = '1' style = 'margin-left: 50%; margin-right: 50%'>
-<img src='https://raw.githubusercontent.com/PyRootmap/PyRootmap/main/gui/molewhat_start.png'>
-</div>
-
-![](gui/molewhat_levels.png)
-![](gui/molewhat_matching.png)
-![](gui/molewhat_typing.png)
-<img src="gui/molewhat_levels.png" width="200" height="200">
+<img src="gui/molewhat_start.png" width="324" height="324">
+<img src="gui/molewhat_levels.png" width="324" height="324">
+<img src="gui/molewhat_matching.png" width="324" height="324">
+<img src="gui/molewhat_typing.png" width="324" height="324">
 
 
 // orientación de GUI, navegación, operaciones de datos, cancelar operaciones.
