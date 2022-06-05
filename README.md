@@ -64,7 +64,7 @@ Simply remove the directory, and if possible, remove dependencies as well.
 
 #### Usage
 No login required. The player's progress is saved locally in the database.
-![](molewhat_start.png)
+![](https://user-images.githubusercontent.com/molewhat_start.png)
 
 // orientación de GUI, navegación, operaciones de datos, cancelar operaciones.
 
