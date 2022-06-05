@@ -22,7 +22,7 @@ Final Project for the Software Engineering 2022-2 class, taught by Dr. José Alf
 * About documentation
 * Toolset - Operational concepts
 * Procedure  - Referential mode
-* Shortcuts and commands
+* Shortcuts and Commands
 * Error messages and Troubleshooting
 * Glosary
 * Navigation Features
