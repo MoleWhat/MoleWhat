@@ -67,18 +67,16 @@ No login required. The player's progress is saved locally in the database.
 
 ##### Windows:
 
-> Home page
+* Home page
 <img src="gui/molewhat_start.png" width="424" height="324">
->
-> Levels page
+
+* Levels page
 <img src="gui/molewhat_levels.png" width="424" height="324">
->
-> The game is divided into two different type of questions. 
-> 
-> This one is an example of matching the correct image with the molecule name:
+
+* The game is divided into two different type of questions. This one is an example of matching the correct image with the molecule name:
 <img src="gui/molewhat_matching.png" width="424" height="324">
->
-> In this other one, you got to type the correct molecula name based on the showed image.
+
+* In this other one, you got to type the correct molecula name based on the showed image.
 <img src="gui/molewhat_typing.png" width="424" height="324">
 
 
