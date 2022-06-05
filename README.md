@@ -65,7 +65,7 @@ Simply remove the directory, and if possible, remove dependencies as well.
 #### Usage
 No login required. The player's progress is saved locally in the database.
 
-<div markdown = '1' style = 'margin-left: 20%; margin-right: 20%'>
+<div markdown = '1' style = 'margin-left: 50%; margin-right: 50%'>
 <img src='https://raw.githubusercontent.com/PyRootmap/PyRootmap/main/gui/molewhat_start.png'>
 </div>
 
