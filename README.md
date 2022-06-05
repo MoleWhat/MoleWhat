@@ -66,7 +66,7 @@ Simply remove the directory, and if possible, remove dependencies as well.
 No login required. The player's progress is saved locally in the database.
 
 <div markdown = '1' style = 'margin-left: 20%; margin-right: 20%'>
-<img src='(gui/molewhat_start.png)'>
+<img src='(https://raw.githubusercontent.com/gui/molewhat_start.png)'>
 </div>
 
 ![](gui/molewhat_levels.png)
