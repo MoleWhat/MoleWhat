@@ -21,9 +21,8 @@ Final Project for the Software Engineering 2022-2 class, taught by Dr. José Alf
 ### Table of Contents
 * Introduction
 * Objectives
-* Toolset
 * About documentation
-* Operational concepts
+* Toolset - Operational concepts
 * Procedure  - Referential mode
 * Shortcuts and commands
 * Error messages and Troubleshooting
