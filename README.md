@@ -16,9 +16,29 @@ Final Project for the Software Engineering 2022-2 class, taught by Dr. José Alf
 > 
 > Anton Pashkov ([anton-pashkov](https://github.com/anton-pashkov))
 
+# User Manual
+
+### Table of Contents
+* Introduction
+* Objectives
+* Toolset
+* About documentation
+* Operational concepts
+* Procedure  - Referential mode
+* Shortcuts and commands
+* Error messages and Troubleshooting
+* Glosary
+* Navigation Features
+* Index
+* Search Tools
+
 
 ## Introduction
 The following project intends to provide a basic game in which chemistry students can study, memorize and learn the molecules names and their descriptions according to the [International Union of Pure and Applied Chemistry](https://iupac.org/).
+
+### Introduction
+// Dirigido a:, Alcance:, Propósito:, Resumen:
+
 
 The need for such a project stems as a desire to help students challenge their knowledge of chemistry, specifically molecules names, through a game that puts their memorization skills to work. There is currently no game that allows you to do this. Studying and memorizing important things is intended to be fun and challenging through the levels that this game offers.
 
@@ -52,25 +72,6 @@ The project is to be developed by making use of modern Python 3 libraries, inclu
 * [Guizero](https://pypi.org/project/guizero/) | v 1.3.0 
 * Sqlite3 | v. 3.36.0
 * [drkit](https://www.rdkit.org/)
-
-
-# User Manual
-
-### Table of Contents
-Introducción
-Sobre el uso de la documentación
-Conceptos de las operaciones - Modo Instruccional
-Procedimientos - Modo Referencial
-Información sobre comandos de software - Atajos
-Mensajes de Error y Troubleshooting
-Glosario
-Características de navegación
-Índice
-Herramientas de Búsqueda
-
-### Introduction
-// Dirigido a:, Alcance:, Propósito:, Resumen:
-
 
 ### About documentation
 
