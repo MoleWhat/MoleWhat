@@ -46,7 +46,7 @@ It is not necessary to have advanced computer knowledge, however, it is recommen
 > * [Python 3](https://www.python.org/downloads/) | v 3.10.4
 > * [Guizero](https://pypi.org/project/guizero/) | v 1.3.0 
 > * [Sqlite3](https://docs.python.org/es/3/library/sqlite3.html) | v. 3.36.0
-> * [drkit](https://www.rdkit.org/)
+> * [rdkit](https://www.rdkit.org/)
 > * [tkinter](https://docs.python.org/es/3/library/tkinter.html) | v. 8.6
 > * [PyInstaller](https://pyinstaller.org/en/stable/)
 >
