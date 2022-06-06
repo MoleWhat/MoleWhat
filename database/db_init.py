@@ -70,7 +70,7 @@ if Path("Molecules.db").is_file() is False:
                 "bromine atoms are connected to adjacent carbons, this "
                 "molecule can also be name o-dibromobenzene."
             ),
-            "BrC1CCCCC1Br",
+            "BrC1:C:C:C:C:C1Br",
             0,
         ),
         (
