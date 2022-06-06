@@ -70,7 +70,7 @@ It is not necessary to have advanced computer knowledge, however, it is recommen
 <img src="gui/MW_levels.jpeg" width="424" height="324">
 
 * The game is divided into two different type of questions. This one is an example of matching the correct image with the molecule name:
-<img src="gui/MW_matching.png" width="424" height="324">
+<img src="gui/MW_matching.jpeg" width="424" height="324">
 
 * In the other one, you type the correct molecule name based on the showed image:
 <img src="gui/MW_typing.jpeg" width="424" height="324">
