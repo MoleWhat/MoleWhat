@@ -21,8 +21,23 @@
 Provides a guizero function that creates the start, allowing the user to begin
 to play.
 """
-from guizero import App, Box, Text, Drawing, event
+
 import menu
+import sqlite3
+from guizero import App, Box, Text, Drawing, event
+
+
+def get_progress():
+    """Connects to database and returns the number of completed exercises."""
+
+    con = sqlite3.connect("../database/Molecules.db")
+    cur = con.cursor()
+    cur.execute("SELECT * FROM molecule WHERE completed = ?", (1,))
+    result = len(cur.fetchall())
+    cur.close()
+    con.close()
+
+    return round(100 * result / 8)
 
 
 def start(obj):
@@ -38,33 +53,62 @@ def start(obj):
     while len(app.children) != 0:
         app.children[0].destroy()
 
-    # Create start box
-    Box(app, align="top", width=500, height=70)
-    a_box = Box(app, align="top", width=900, height=510, layout="grid")
+    # Top box
+    Box(app, align="top", width="fill", height=65)
+
+    # Box with progress
+    a_box = Box(app, align="top", width="fill", height=170)
     a_box.bg = "white"
+    Text(
+        a_box,
+        f"You have solved {get_progress()}% of the exercises",
+        size=20,
+        align="top",
+        height=3,
+    )
 
-    for y in [0, 0]:
-        for x in [0, 2, 3, 4, 5, 6]:
-            button = Box(a_box, grid=[x, y], width=155, height=155)
-            button = Drawing(a_box, grid=[3, 2], width=250, height=250)
-            button.triangle(60, 10, 60, 150, 200, 80, color="#8AC926")
+    # Box with button
+    b_box = Box(app, align="top", width="fill", height=240)
+    b_box.bg = "white"
+    button = Drawing(b_box, width=240, height=240, align="top")
+    button.triangle(60, 10, 60, 150, 200, 80, color="#8AC926")
+    button.tk.config(cursor="hand1")
+    button.when_clicked = menu.menu
 
-            # Change cursor to a "hand" on mouse hover
-            button.tk.config(cursor="hand1")
-
-            b_box = Box(a_box, grid=[3, 3], height=45, width=300)
-            Text(
-                b_box,
-                text="MoleWhat",
-                color="black",
-                bg="white",
-                size=35,
-                width=100,
-                height=100,
-            )
-
-            # Call menu function if home button is clicked
-            button.when_clicked = menu.menu
+    # Box with name
+    c_box = Box(app, align="top", height=110, width="fill")
+    c_box.bg = "white"
+    Text(
+        c_box,
+        text="MoleWhat",
+        color="black",
+        bg="white",
+        size=35,
+        align="top",
+    )
+    #
+    # for y in [0, 0]:
+    #     for x in [0, 2, 3, 4, 5, 6]:
+    #         button = Box(a_box, grid=[x, y], width=155, height=155)
+    #         button = Drawing(a_box, grid=[3, 2], width=250, height=250)
+    #         button.triangle(60, 10, 60, 150, 200, 80, color="#8AC926")
+    #
+    #         # Change cursor to a "hand" on mouse hover
+    #         button.tk.config(cursor="hand1")
+    #
+    #         b_box = Box(a_box, grid=[3, 3], height=45, width=300)
+    #         Text(
+    #             b_box,
+    #             text="MoleWhat",
+    #             color="black",
+    #             bg="white",
+    #             size=35,
+    #             width=100,
+    #             height=100,
+    #         )
+    #
+    #         # Call menu function if home button is clicked
+    #         button.when_clicked = menu.menu
 
 
 if __name__ == "__main__":

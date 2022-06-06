@@ -53,6 +53,7 @@ def set_as_solved(number):
     con = sqlite3.connect("../database/Molecules.db")
     cur = con.cursor()
     cur.execute("UPDATE molecule SET completed = 1 WHERE id = ?", (number,))
+    con.commit()
     cur.close()
     con.close()
 
