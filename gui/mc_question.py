@@ -27,15 +27,13 @@ import sqlite3
 from rdkit import Chem
 import rdkit.Chem.Draw
 import start
-#import menu
 
 
 
-# =============================================================================
-# def test3_func():
-#     # Test function: replace with start function
-#     print("You want to go home?")
-# =============================================================================
+ def test3_func():
+     # Test function: replace with start function
+     print("You want to go home?")
+
     
 def correct_answ():
     app.info("Great!", "Your answer is correct")
