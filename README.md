@@ -50,7 +50,7 @@ It is not necessary to have advanced computer knowledge, however, it is recommen
 > * [tkinter](https://docs.python.org/es/3/library/tkinter.html) | v. 8.6
 >
 > Run your executable to get started as quickly as possible by doing the following:
-> * Unzip the folder.
+> * Unzip the gui folder.
 > * Open the folders.
 > * Allow execute, read and write permissions.
 > 
