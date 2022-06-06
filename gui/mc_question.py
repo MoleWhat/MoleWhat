@@ -24,10 +24,10 @@ has been asked for.
 from guizero import *
 from random import choice
 import sqlite3
-#import menu
 from rdkit import Chem
 import rdkit.Chem.Draw
 import start
+#import menu
 
 
 
@@ -125,7 +125,6 @@ def mc_question(app, selected_level):
     picture_b = Picture(other, image=img_b)
     
     #Verify if the given answer was correct
-    
     picture.tk.config(cursor="hand1")
     picture.when_clicked = correct_answ
     picture_b.tk.config(cursor="hand1")
