@@ -29,8 +29,15 @@ from rdkit import Chem
 from guizero import App, Box, Text, Picture, Drawing
 from random import choice, shuffle
 
-# Global variable to store level number
+# Global variable to store level number and correct molecule id
 LEVEL_ID = 0
+CORRECT_ID = None
+
+
+def do_nothing():
+    """A function that does nothing..."""
+
+    return
 
 
 def lookup(number):
@@ -63,16 +70,32 @@ def check_answer(event_data):
     for the given challenge number is switched to 1. In case it was incorrect,
     the pop-up will show an explanation."""
 
-    print(event_data.tk_event.x)
+    # Get the id of the image chosen
+    answer = id(event_data.widget.value)
+
+    # Disable options so they cannot be interacted with
+    for obj in event_data.widget.master.children:
+        obj.when_clicked = do_nothing
+        obj.tk.config(cursor="")
+
+    # Get App object from event_data
+    app = event_data.widget
+    while type(app) != App:
+        app = app.master
+
+    if answer == CORRECT_ID:
+        app.info("Congratulations", "You solved this exercise.")
+    else:
+        app.warn("Wrong answer", "Please, try again.")
 
 
 def mc_question(event_data):
     """Creates a page with two options of molecules where the user must choose
     the one asked by the program."""
 
-    global LEVEL_ID
+    global LEVEL_ID, CORRECT_ID
     # Fetch level data from the database
-    LEVEL_ID, name, info, smiles, solved = lookup(int(event_data.widget.value))
+    LEVEL_ID, name, info, corr, solved = lookup(int(event_data.widget.value))
 
     # Randomly choose one of the names to show on-screen
     showed_name = choice(name.split(";"))
@@ -127,21 +150,27 @@ def mc_question(event_data):
     con = sqlite3.connect("../database/Molecules.db")
     cur = con.cursor()
     cur.execute("SELECT code_smiles FROM molecule WHERE id != ?", (LEVEL_ID,))
-    incorrect = choice(cur.fetchall())[0]
+    incorr = choice(cur.fetchall())[0]
     cur.close()
     con.close()
 
     # Molecule options container box
-    opt = Box(app, align="top", width=650, height=300, layout="grid")
-    options_order = [smiles, incorrect]
+    opt = Box(app, align="top", width=650, height=300)
+    options_order = [corr, incorr]
     shuffle(options_order)
     mol1 = MolToImage(Chem.MolFromSmiles(options_order[0]))
     mol2 = MolToImage(Chem.MolFromSmiles(options_order[1]))
-    pic1 = Picture(opt, image=mol1, width=300, height=300, grid=[0, 0])
-    Box(opt, width=50, height=300, grid=[1, 0])
-    pic2 = Picture(opt, image=mol2, width=300, height=300, grid=[2, 0])
+    pic1 = Picture(opt, image=mol1, width=300, height=300, align="left")
+    pic2 = Picture(opt, image=mol2, width=300, height=300, align="right")
     pic1.tk.config(cursor="hand1")
     pic2.tk.config(cursor="hand1")
+
+    # Store id of the correct answer in CORRECT global variable
+    CORRECT_ID = id(mol1) if options_order.index(corr) == 0 else id(mol2)
+
+    # Check answer on mouse click
+    pic1.when_clicked = check_answer
+    pic2.when_clicked = check_answer
 
 
 # def mc_question(app, selected_level):
