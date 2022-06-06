@@ -64,16 +64,16 @@ It is not necessary to have advanced computer knowledge, however, it is recommen
 #### About the interface
 >
 * Home page:
-<img src="gui/molewhat_start.png" width="424" height="324">
+<img src="gui/MW_start.jpeg" width="424" height="324">
 
 * Levels page:
-<img src="gui/molewhat_levels.png" width="424" height="324">
+<img src="gui/MW_levels.jpeg" width="424" height="324">
 
 * The game is divided into two different type of questions. This one is an example of matching the correct image with the molecule name:
 <img src="gui/molewhat_matching.png" width="424" height="324">
 
 * In the other one, you type the correct molecule name based on the showed image:
-<img src="gui/molewhat_typing.png" width="424" height="324">
+<img src="gui/MW_typing.jpeg" width="424" height="324">
 
 * In addition, it contains a button that takes you directly to the home page. It is located in the bottom right.
  
