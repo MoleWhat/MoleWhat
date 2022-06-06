@@ -48,7 +48,6 @@ It is not necessary to have advanced computer knowledge, however, it is recommen
 > * [Sqlite3](https://docs.python.org/es/3/library/sqlite3.html) | v. 3.36.0
 > * [rdkit](https://www.rdkit.org/)
 > * [tkinter](https://docs.python.org/es/3/library/tkinter.html) | v. 8.6
-> * [PyInstaller](https://pyinstaller.org/en/stable/)
 >
 > Run your executable to get started as quickly as possible by doing the following:
 > * Unzip the folder.
