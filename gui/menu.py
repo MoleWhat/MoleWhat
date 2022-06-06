@@ -23,28 +23,12 @@ select levels to play and view already completed levels. Level type is selected
 randomly.
 """
 
-from guizero import Box, Text, Drawing, App
-from random import choice
 
-# TODO: Uncomment the following imports when the functions are done
 import start
 import writing_question
-
-# from mc_question import mc_question
-# from writing_question import writing_question
-
-# Temporary testing functions; they will be removed when the other pages will
-# be done...
-
-
-def test1_func(event_data):
-    # Test function: replace with mc_question
-    print("You chose", event_data.widget.value, "Circular squares")
-
-
-def test2_func(event_data):
-    # Test function: replace with writing_question
-    print("You chose", event_data.widget.value, "Impossible possibilities")
+import mc_question
+from guizero import Box, Text, Drawing, App
+from random import choice
 
 
 def dim(event_data):
@@ -111,7 +95,10 @@ def menu(event_data):
             text.tk.config(cursor="hand1")
 
             # Random choice between "multiple choice" and "writing"
-            func = choice([test1_func, writing_question.writing_question])
+            func = choice([
+                mc_question.mc_question,
+                writing_question.writing_question
+            ])
             text.when_clicked = func
 
             # Dim on mouse hover
